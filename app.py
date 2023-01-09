@@ -50,7 +50,7 @@ df_metadata = None
 df_bar = None
 df_heatmap = None
 
-st.sidebar.title("腸内細菌解析アプリ")
+st.sidebar.title("Qiime2向け腸内細菌解析アプリ")
 
 metadata_file = st.sidebar.file_uploader(
     'メタデータファイルを選択してください', type=['tsv'])
