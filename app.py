@@ -4,12 +4,12 @@ import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
-import scipy
 import numpy as np
 from functools import cmp_to_key
 
-
 # df_barのサンプルIDを、カテゴリ、菌種の存在量、サンプルID順にソート
+
+
 def index_compare(data1, data2):
     data1s = data1.split("|")
     data2s = data2.split("|")
